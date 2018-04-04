@@ -1,4 +1,4 @@
-# docker-cotainer-health-check-http
+# docker-container-health-check-http
 Simple HTTP health-check for containers is same host
 
 # How to use
