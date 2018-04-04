@@ -5,7 +5,7 @@ Simple HTTP health-check for containers in same host
 
 
 ```
-git clone https://github.com/otherpirate/docker-cotainer-health-check-http.git
+git clone https://github.com/otherpirate/docker-container-health-check-http.git
 cd docker-cotainer-health-check-http
 docker build -t http-hc .
 docker run --name=http-hc -d -v /var/run/docker.sock:/var/run/docker.sock -p 5000:5000 http-hc:latest
